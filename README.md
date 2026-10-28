@@ -1,24 +1,34 @@
-# Draftwise Freelance Studio
+# Freelance Proposal Analyzer 🤖
 
-A responsive freelance proposal analyzer built with React, Vite, JavaScript, Bootstrap, React Router, Axios, and Lucide icons.
+An AI-powered application that helps freelancers analyze job descriptions and create better proposals using the OpenAI API.
 
-## Run locally
+## Features
 
-```sh
-npm install
-npm run dev
-```
+- **Job Analysis:** Extracts key requirements and required skills from job descriptions.
+- **Missing Skills:** Highlights skills that may be missing from your profile.
+- **Proposal Generator:** Generates tailored proposals based on job requirements and your profile.
+- **Profile Match:** Shows an estimated profile-job match percentage for descriptive guidance, not as a hiring score.
+- **Interview Preparation:** Generates relevant interview questions based on the job description.
 
-Use `npm run build` to create a production bundle and `npm run lint` to run Oxlint.
+## Tech Stack
 
-## Demo
+- MERN Stack
+- OpenAI API
 
-Open `/login` and sign in with any valid email and password. Registration is also available; demo authentication is stored in the browser and does not contact a server. Profile details, preferences, and analysis history use local storage with realistic starter records.
+## Getting Started
 
-## API configuration
+1. Clone the repository.
+2. Install the required dependencies.
+3. Configure your environment variables.
+4. Add your MongoDB connection string and OpenAI API key.
+5. Start the frontend and backend servers.
 
-The Axios client is ready in `src/services/api.js`. Set `VITE_API_URL` in a local `.env` file when connecting a backend. No API, database, or AI service is currently required to use the demo.
+## Purpose
 
-## Backend
+This project aims to help freelancers understand job requirements, identify skill gaps, write relevant proposals, and prepare for interviews.
 
-The standalone Express API is in [backend/README.md](backend/README.md). Run `npm install` and `npm run dev` from `backend/`; it listens on port `5001` by default. The React demo still uses local mock data and has not been connected to these endpoints.
+## Author
+
+**Muhammad Anas Zia**
+
+Full Stack MERN Developer
